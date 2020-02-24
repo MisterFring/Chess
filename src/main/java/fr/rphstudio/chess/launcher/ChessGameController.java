@@ -7,7 +7,7 @@ import fr.rphstudio.chess.game.ChessModel;
 import fr.rphstudio.chess.interf.ChessException;
 import fr.rphstudio.chess.interf.IChess;
 import fr.rphstudio.chess.interf.IChess.ChessColor;
-import fr.rphstudio.chess.interf.IChess.ChessKingState;
+import fr.rphstudio.chess."interf.IChess.ChessKingState;
 import fr.rphstudio.chess.interf.IChess.ChessPosition;
 import fr.rphstudio.chess.interf.IChess.ChessType;
 import java.io.BufferedReader;
