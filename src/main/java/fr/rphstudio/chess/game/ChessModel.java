@@ -15,6 +15,9 @@ public class ChessModel implements IChess {
     public static ChessModel Instance = new ChessModel();
     private ChessModel(){
 
+        //Pieces p = new Pieces(ChessType.TYP_PAWN, ChessColor.CLR_WHITE);
+        //System.out.println( p.getType() );
+        //System.out.println( p.getColor() );
 
 
     }
