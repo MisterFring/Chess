@@ -1,8 +1,9 @@
 package fr.rphstudio.chess.game;
 
+import fr.rphstudio.chess.interf.IChess;
 import fr.rphstudio.chess.interf.IChess.*;
 
-public class Pieces {
+public class Piece {
     // ---------------------------
     // attributes
     // ---------------------------
@@ -23,7 +24,7 @@ public class Pieces {
 
 
     // Constructor
-    public Pieces(ChessType typ, ChessColor clr){
+    public Piece(ChessType typ, ChessColor clr){
         this.type = typ;
         this.color = clr;
     }
@@ -36,6 +37,7 @@ public class Pieces {
     }
 
 }
+
 
 
 

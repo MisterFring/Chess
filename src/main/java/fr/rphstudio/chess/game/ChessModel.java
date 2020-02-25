@@ -12,14 +12,14 @@ import java.util.List;
 
 public class ChessModel implements IChess {
 
-    public static ChessModel Instance = new ChessModel();
+    private static ChessModel Instance = new ChessModel();
+    private Board myBoard = new Board();
+
     private ChessModel(){
 
-        //Pieces p = new Pieces(ChessType.TYP_PAWN, ChessColor.CLR_WHITE);
+        Piece p = new Piece (ChessType.TYP_PAWN, ChessColor.CLR_WHITE);
         //System.out.println( p.getType() );
         //System.out.println( p.getColor() );
-
-
     }
 
     public static ChessModel getInstance(){
@@ -35,16 +35,28 @@ public class ChessModel implements IChess {
 
     @Override
     public ChessType getPieceType(ChessPosition p) throws EmptyCellException, OutOfBoardException {
-        return ChessType.TYP_ROOK;
+    Piece piece1 = myBoard.getPiece(p);
+
+    if (piece1 != null ){
+        return piece1.getType();
+    }else{
+       throw new EmptyCellException();
+    }
     }
 
     @Override
     public ChessColor getPieceColor(ChessPosition p) throws EmptyCellException, OutOfBoardException {
-        return ChessColor.CLR_WHITE;
+        Piece piece1 = new Piece();
+        return piece1.getColor();
+
     }
 
     @Override
     public int getNbRemainingPieces(ChessColor color) {
+        //ajout des couleurs disponibles pedant les frames.
+
+        System.out.println(ChessColor.CLR_WHITE);
+        System.out.println(ChessColor.CLR_BLACK);
         return 0;
     }
 

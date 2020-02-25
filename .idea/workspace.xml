@@ -4,6 +4,8 @@
     <list default="true" id="9b651831-a26f-482d-9c7a-45ba54ee5f2f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/rphstudio/chess/game/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/rphstudio/chess/game/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/rphstudio/chess/game/ChessModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/rphstudio/chess/game/ChessModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/rphstudio/chess/game/Pieces.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/rphstudio/chess/game/Piece.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Chess-1.6.79-mac-osx.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/Chess-1.6.79-mac-osx.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Chess-1.6.79-mac-osx/Chess-1.6.79/Chess-1.6.79.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Chess-1.6.79-mac-osx/Chess-1.6.79/Chess-1.6.79.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Chess-1.6.79-release-linux.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/Chess-1.6.79-release-linux.zip" afterDir="false" />
@@ -12,16 +14,23 @@
       <change beforePath="$PROJECT_DIR$/target/Chess-1.6.79-release-windows/Chess-1.6.79/Chess-1.6.79.exe" beforeDir="false" afterPath="$PROJECT_DIR$/target/Chess-1.6.79-release-windows/Chess-1.6.79/Chess-1.6.79.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Chess-1.6.79.exe" beforeDir="false" afterPath="$PROJECT_DIR$/target/Chess-1.6.79.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Chess-1.6.79.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Chess-1.6.79.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/archive-tmp/fileSetFormatter.204985614.tmp/game.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/archive-tmp/fileSetFormatter.204985614.tmp/game.sh.1422770207.filtered" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/archive-tmp/fileSetFormatter.336335056.tmp/game.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/archive-tmp/fileSetFormatter.336335056.tmp/game.sh.655963905.filtered" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/archive-tmp/fileSetFormatter.704727009.tmp/game.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/archive-tmp/fileSetFormatter.704727009.tmp/game.sh.1226371255.filtered" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/archive-tmp/fileSetFormatter.897916002.tmp/game.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/archive-tmp/fileSetFormatter.897916002.tmp/game.sh.434609744.filtered" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/antrun/build-main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/antrun/build-main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/archive-tmp/fileSetFormatter.105862905.tmp/game.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/archive-tmp/fileSetFormatter.105862905.tmp/game.sh.398730117.filtered" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/archive-tmp/fileSetFormatter.1231264661.tmp/game.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/archive-tmp/fileSetFormatter.1231264661.tmp/game.sh.507189154.filtered" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/archive-tmp/fileSetFormatter.20072813.tmp/game.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/archive-tmp/fileSetFormatter.20072813.tmp/game.sh.1173407958.filtered" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/archive-tmp/fileSetFormatter.804318896.tmp/game.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/archive-tmp/fileSetFormatter.804318896.tmp/game.sh.1830954978.filtered" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/rphstudio/chess/game/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fr/rphstudio/chess/game/Board.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/rphstudio/chess/game/ChessModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fr/rphstudio/chess/game/ChessModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/rphstudio/chess/game/Pieces.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,6 +51,18 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
   </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
   <component name="RunManager">
     <configuration name="Run" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="fr.rphstudio.chess.launcher.MainLauncher" />
@@ -52,18 +73,6 @@
         <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="clean install" />
       </method>
     </configuration>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
