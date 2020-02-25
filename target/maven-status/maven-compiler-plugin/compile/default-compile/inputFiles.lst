@@ -1,0 +1,10 @@
+/Users/Pierredck/Documents/Coding Factory/Java POO/Repo/Chess/src/main/java/fr/rphstudio/chess/launcher/ChessGameController.java
+/Users/Pierredck/Documents/Coding Factory/Java POO/Repo/Chess/src/main/java/fr/rphstudio/chess/game/Pieces.java
+/Users/Pierredck/Documents/Coding Factory/Java POO/Repo/Chess/src/main/java/fr/rphstudio/chess/interf/ChessException.java
+/Users/Pierredck/Documents/Coding Factory/Java POO/Repo/Chess/src/main/java/fr/rphstudio/chess/game/ChessModel.java
+/Users/Pierredck/Documents/Coding Factory/Java POO/Repo/Chess/src/main/java/fr/rphstudio/chess/interf/OutOfBoardException.java
+/Users/Pierredck/Documents/Coding Factory/Java POO/Repo/Chess/src/main/java/fr/rphstudio/chess/game/Board.java
+/Users/Pierredck/Documents/Coding Factory/Java POO/Repo/Chess/src/main/java/fr/rphstudio/chess/launcher/ChessFontManager.java
+/Users/Pierredck/Documents/Coding Factory/Java POO/Repo/Chess/src/main/java/fr/rphstudio/chess/interf/IChess.java
+/Users/Pierredck/Documents/Coding Factory/Java POO/Repo/Chess/src/main/java/fr/rphstudio/chess/launcher/MainLauncher.java
+/Users/Pierredck/Documents/Coding Factory/Java POO/Repo/Chess/src/main/java/fr/rphstudio/chess/interf/EmptyCellException.java
