@@ -2,7 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b651831-a26f-482d-9c7a-45ba54ee5f2f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/rphstudio/chess/game/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/rphstudio/chess/game/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Chess-1.6.79-mac-osx.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/Chess-1.6.79-mac-osx.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Chess-1.6.79-mac-osx/Chess-1.6.79/Chess-1.6.79.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Chess-1.6.79-mac-osx/Chess-1.6.79/Chess-1.6.79.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Chess-1.6.79-release-linux.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/Chess-1.6.79-release-linux.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Chess-1.6.79-release-linux/Chess-1.6.79/Chess-1.6.79.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Chess-1.6.79-release-linux/Chess-1.6.79/Chess-1.6.79.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Chess-1.6.79-release-windows.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/Chess-1.6.79-release-windows.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Chess-1.6.79-release-windows/Chess-1.6.79/Chess-1.6.79.exe" beforeDir="false" afterPath="$PROJECT_DIR$/target/Chess-1.6.79-release-windows/Chess-1.6.79/Chess-1.6.79.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Chess-1.6.79.exe" beforeDir="false" afterPath="$PROJECT_DIR$/target/Chess-1.6.79.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Chess-1.6.79.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Chess-1.6.79.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/archive-tmp/fileSetFormatter.204985614.tmp/game.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/archive-tmp/fileSetFormatter.204985614.tmp/game.sh.1422770207.filtered" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/archive-tmp/fileSetFormatter.336335056.tmp/game.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/archive-tmp/fileSetFormatter.336335056.tmp/game.sh.655963905.filtered" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/archive-tmp/fileSetFormatter.704727009.tmp/game.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/archive-tmp/fileSetFormatter.704727009.tmp/game.sh.1226371255.filtered" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/archive-tmp/fileSetFormatter.897916002.tmp/game.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/archive-tmp/fileSetFormatter.897916002.tmp/game.sh.434609744.filtered" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,21 +92,21 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1341" height="200" key="GridCell.Tab.0.bottom" timestamp="1582621817408">
+    <state width="1341" height="200" key="GridCell.Tab.0.bottom" timestamp="1582623069412">
       <screen x="40" y="23" width="1400" height="877" />
     </state>
-    <state width="1341" height="200" key="GridCell.Tab.0.bottom/40.23.1400.877@40.23.1400.877" timestamp="1582621817408" />
-    <state width="1341" height="200" key="GridCell.Tab.0.center" timestamp="1582621817406">
+    <state width="1341" height="200" key="GridCell.Tab.0.bottom/40.23.1400.877@40.23.1400.877" timestamp="1582623069412" />
+    <state width="1341" height="200" key="GridCell.Tab.0.center" timestamp="1582623069410">
       <screen x="40" y="23" width="1400" height="877" />
     </state>
-    <state width="1341" height="200" key="GridCell.Tab.0.center/40.23.1400.877@40.23.1400.877" timestamp="1582621817406" />
-    <state width="1341" height="200" key="GridCell.Tab.0.left" timestamp="1582621817406">
+    <state width="1341" height="200" key="GridCell.Tab.0.center/40.23.1400.877@40.23.1400.877" timestamp="1582623069410" />
+    <state width="1341" height="200" key="GridCell.Tab.0.left" timestamp="1582623069410">
       <screen x="40" y="23" width="1400" height="877" />
     </state>
-    <state width="1341" height="200" key="GridCell.Tab.0.left/40.23.1400.877@40.23.1400.877" timestamp="1582621817406" />
-    <state width="1341" height="200" key="GridCell.Tab.0.right" timestamp="1582621817407">
+    <state width="1341" height="200" key="GridCell.Tab.0.left/40.23.1400.877@40.23.1400.877" timestamp="1582623069410" />
+    <state width="1341" height="200" key="GridCell.Tab.0.right" timestamp="1582623069411">
       <screen x="40" y="23" width="1400" height="877" />
     </state>
-    <state width="1341" height="200" key="GridCell.Tab.0.right/40.23.1400.877@40.23.1400.877" timestamp="1582621817407" />
+    <state width="1341" height="200" key="GridCell.Tab.0.right/40.23.1400.877@40.23.1400.877" timestamp="1582623069411" />
   </component>
 </project>
