@@ -72,7 +72,7 @@ public class Board {
         }
         // if is valid position
         return nbPieces;
-        // else return null 
+        // else return null jj
     }
 
     public void move(ChessPosition p0, ChessPosition p1) {
