@@ -12,8 +12,15 @@ public class PawnMoves implements Movement {
         System.out.println("This is pawn test");
         List<ChessPosition> testlist = new ArrayList<>();
 
-        ChessPosition pos = new ChessPosition(3,4);
+        ChessPosition pos = new ChessPosition(p.x + 0,p.y + 1);
+        ChessPosition pos2 = new ChessPosition(p.x + 0,p.y + 2);
+        ChessPosition pos3 = new ChessPosition(p.x + 0,p.y - 1);
+        ChessPosition pos4 = new ChessPosition(p.x + 0,p.y - 2);
+
         testlist.add(pos);
+        testlist.add(pos2);
+        testlist.add(pos3);
+        testlist.add(pos4);
 
         return testlist;
     }

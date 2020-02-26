@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b651831-a26f-482d-9c7a-45ba54ee5f2f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/rphstudio/chess/game/BishopMoves.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/rphstudio/chess/game/KingMoves.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/rphstudio/chess/game/KnightMoves.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/rphstudio/chess/game/QueenMoves.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/rphstudio/chess/game/RookMoves.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/rphstudio/chess/game/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/rphstudio/chess/game/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/rphstudio/chess/game/ChessModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/rphstudio/chess/game/ChessModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/rphstudio/chess/game/Piece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/rphstudio/chess/game/Piece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/rphstudio/chess/game/PawnMoves.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/rphstudio/chess/game/PawnMoves.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Chess-1.6.79-mac-osx.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/Chess-1.6.79-mac-osx.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Chess-1.6.79-mac-osx/Chess-1.6.79/Chess-1.6.79.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Chess-1.6.79-mac-osx/Chess-1.6.79/Chess-1.6.79.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Chess-1.6.79-release-linux.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/Chess-1.6.79-release-linux.zip" afterDir="false" />
@@ -14,7 +18,6 @@
       <change beforePath="$PROJECT_DIR$/target/Chess-1.6.79-release-windows/Chess-1.6.79/Chess-1.6.79.exe" beforeDir="false" afterPath="$PROJECT_DIR$/target/Chess-1.6.79-release-windows/Chess-1.6.79/Chess-1.6.79.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Chess-1.6.79.exe" beforeDir="false" afterPath="$PROJECT_DIR$/target/Chess-1.6.79.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Chess-1.6.79.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Chess-1.6.79.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/antrun/build-main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/antrun/build-main.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/archive-tmp/fileSetFormatter.226453606.tmp/game.sh" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/archive-tmp/fileSetFormatter.226453606.tmp/game.sh.1684722554.filtered" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/archive-tmp/fileSetFormatter.56443332.tmp/game.sh" beforeDir="false" />
@@ -56,18 +59,6 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager">
     <configuration name="Run" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="fr.rphstudio.chess.launcher.MainLauncher" />
@@ -78,6 +69,18 @@
         <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="clean install" />
       </method>
     </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -106,26 +109,30 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1341" height="198" key="GridCell.Tab.0.bottom" timestamp="1582708440559">
+    <state x="560" y="171" key="#com.intellij.ide.util.MemberChooser" timestamp="1582722215153">
+      <screen x="41" y="23" width="1399" height="877" />
+    </state>
+    <state x="560" y="171" key="#com.intellij.ide.util.MemberChooser/41.23.1399.877@41.23.1399.877" timestamp="1582722215153" />
+    <state width="1341" height="198" key="GridCell.Tab.0.bottom" timestamp="1582728419578">
       <screen x="41" y="23" width="1399" height="877" />
     </state>
     <state width="1341" height="199" key="GridCell.Tab.0.bottom/40.23.1400.877@40.23.1400.877" timestamp="1582640617194" />
-    <state width="1341" height="198" key="GridCell.Tab.0.bottom/41.23.1399.877@41.23.1399.877" timestamp="1582708440559" />
-    <state width="1341" height="198" key="GridCell.Tab.0.center" timestamp="1582708440558">
+    <state width="1341" height="198" key="GridCell.Tab.0.bottom/41.23.1399.877@41.23.1399.877" timestamp="1582728419578" />
+    <state width="1341" height="198" key="GridCell.Tab.0.center" timestamp="1582728419577">
       <screen x="41" y="23" width="1399" height="877" />
     </state>
     <state width="1341" height="199" key="GridCell.Tab.0.center/40.23.1400.877@40.23.1400.877" timestamp="1582640617192" />
-    <state width="1341" height="198" key="GridCell.Tab.0.center/41.23.1399.877@41.23.1399.877" timestamp="1582708440558" />
-    <state width="1341" height="198" key="GridCell.Tab.0.left" timestamp="1582708440556">
+    <state width="1341" height="198" key="GridCell.Tab.0.center/41.23.1399.877@41.23.1399.877" timestamp="1582728419577" />
+    <state width="1341" height="198" key="GridCell.Tab.0.left" timestamp="1582728419576">
       <screen x="41" y="23" width="1399" height="877" />
     </state>
     <state width="1341" height="199" key="GridCell.Tab.0.left/40.23.1400.877@40.23.1400.877" timestamp="1582640617192" />
-    <state width="1341" height="198" key="GridCell.Tab.0.left/41.23.1399.877@41.23.1399.877" timestamp="1582708440556" />
-    <state width="1341" height="198" key="GridCell.Tab.0.right" timestamp="1582708440559">
+    <state width="1341" height="198" key="GridCell.Tab.0.left/41.23.1399.877@41.23.1399.877" timestamp="1582728419576" />
+    <state width="1341" height="198" key="GridCell.Tab.0.right" timestamp="1582728419578">
       <screen x="41" y="23" width="1399" height="877" />
     </state>
     <state width="1341" height="199" key="GridCell.Tab.0.right/40.23.1400.877@40.23.1400.877" timestamp="1582640617193" />
-    <state width="1341" height="198" key="GridCell.Tab.0.right/41.23.1399.877@41.23.1399.877" timestamp="1582708440559" />
+    <state width="1341" height="198" key="GridCell.Tab.0.right/41.23.1399.877@41.23.1399.877" timestamp="1582728419578" />
     <state x="441" y="278" key="com.intellij.ide.util.TipDialog" timestamp="1582646044852">
       <screen x="41" y="23" width="1399" height="877" />
     </state>
