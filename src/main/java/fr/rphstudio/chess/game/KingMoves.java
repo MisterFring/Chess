@@ -17,6 +17,8 @@ public class KingMoves implements Movement {
 
         IChess.ChessPosition pos5 = new IChess.ChessPosition(p.x + 1,p.y + 0);
         IChess.ChessPosition pos6 = new IChess.ChessPosition(p.x + 0,p.y + 1);
+        IChess.ChessPosition pos7 = new IChess.ChessPosition(p.x + 0,p.y - 1);
+        IChess.ChessPosition pos8 = new IChess.ChessPosition(p.x - 1,p.y + 0);
 
         kingList.add(pos);
         kingList.add(pos2);
@@ -24,6 +26,8 @@ public class KingMoves implements Movement {
         kingList.add(pos4);
         kingList.add(pos5);
         kingList.add(pos6);
+        kingList.add(pos7);
+        kingList.add(pos8);
 
         return kingList;
     }

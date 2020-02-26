@@ -9,7 +9,6 @@ public class PawnMoves implements Movement {
 
     @Override
     public List<ChessPosition> getPieceMoves(ChessPosition p, Board b) {
-        System.out.println("This is pawn test");
         List<ChessPosition> testlist = new ArrayList<>();
 
         ChessPosition pos = new ChessPosition(p.x + 0,p.y + 1);
