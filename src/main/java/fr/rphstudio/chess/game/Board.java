@@ -8,40 +8,40 @@ public class Board {
     public Board (){
     grid =  new Piece[8][8];
     //TOUR BLCK
-    grid [0][0] = new Piece(ChessType.TYP_ROOK, ChessColor.CLR_BLACK);
-    grid [7][0] = new Piece(ChessType.TYP_ROOK, ChessColor.CLR_BLACK);
+    grid [0][0] = new Piece(ChessType.TYP_ROOK, ChessColor.CLR_BLACK, new PawnMoves() );
+    grid [7][0] = new Piece(ChessType.TYP_ROOK, ChessColor.CLR_BLACK, new PawnMoves() );
     //TOUR WHTE
-    grid [0][7] = new Piece(ChessType.TYP_ROOK, ChessColor.CLR_WHITE);
-    grid [7][7] = new Piece(ChessType.TYP_ROOK, ChessColor.CLR_WHITE);
+    grid [0][7] = new Piece(ChessType.TYP_ROOK, ChessColor.CLR_WHITE, new PawnMoves() );
+    grid [7][7] = new Piece(ChessType.TYP_ROOK, ChessColor.CLR_WHITE, new PawnMoves() );
 
 
     //CHEVALIER BLCK
-    grid [1][0] = new Piece(ChessType.TYP_KNIGHT, ChessColor.CLR_BLACK);
-    grid [6][0] = new Piece(ChessType.TYP_KNIGHT, ChessColor.CLR_BLACK);
+    grid [1][0] = new Piece(ChessType.TYP_KNIGHT, ChessColor.CLR_BLACK, new PawnMoves() );
+    grid [6][0] = new Piece(ChessType.TYP_KNIGHT, ChessColor.CLR_BLACK, new PawnMoves() );
 
     // CHEVALIER WHTE
-    grid [1][7] = new Piece(ChessType.TYP_KNIGHT, ChessColor.CLR_WHITE);
-    grid [6][7] = new Piece(ChessType.TYP_KNIGHT, ChessColor.CLR_WHITE);
+    grid [1][7] = new Piece(ChessType.TYP_KNIGHT, ChessColor.CLR_WHITE, new PawnMoves() );
+    grid [6][7] = new Piece(ChessType.TYP_KNIGHT, ChessColor.CLR_WHITE, new PawnMoves() );
 
     //FOU BLCK
-    grid [2][0] = new Piece(ChessType.TYP_BISHOP, ChessColor.CLR_BLACK);
-    grid [5][0] = new Piece(ChessType.TYP_BISHOP, ChessColor.CLR_BLACK);
+    grid [2][0] = new Piece(ChessType.TYP_BISHOP, ChessColor.CLR_BLACK, new PawnMoves() );
+    grid [5][0] = new Piece(ChessType.TYP_BISHOP, ChessColor.CLR_BLACK, new PawnMoves() );
 
     // FOU WHTE
-    grid [2][7] = new Piece(ChessType.TYP_BISHOP, ChessColor.CLR_WHITE);
-    grid [5][7] = new Piece(ChessType.TYP_BISHOP, ChessColor.CLR_WHITE);
+    grid [2][7] = new Piece(ChessType.TYP_BISHOP, ChessColor.CLR_WHITE, new PawnMoves() );
+    grid [5][7] = new Piece(ChessType.TYP_BISHOP, ChessColor.CLR_WHITE, new PawnMoves() );
 
     // ROI ET QUEEN BLCK
-    grid [3][0] = new Piece(ChessType.TYP_KING, ChessColor.CLR_BLACK);
-    grid [4][0] = new Piece(ChessType.TYP_QUEEN, ChessColor.CLR_BLACK);
+    grid [3][0] = new Piece(ChessType.TYP_KING, ChessColor.CLR_BLACK, new PawnMoves() );
+    grid [4][0] = new Piece(ChessType.TYP_QUEEN, ChessColor.CLR_BLACK, new PawnMoves() );
 
     // ROI ET QUEEN WHTE
-    grid [3][7] = new Piece(ChessType.TYP_KING, ChessColor.CLR_WHITE);
-    grid [4][7] = new Piece(ChessType.TYP_QUEEN, ChessColor.CLR_WHITE);
+    grid [3][7] = new Piece(ChessType.TYP_KING, ChessColor.CLR_WHITE, new PawnMoves() );
+    grid [4][7] = new Piece(ChessType.TYP_QUEEN, ChessColor.CLR_WHITE, new PawnMoves() );
 
     for (int i = 0; i < 8; i = i + 1) {
-        grid [i][1] = new Piece(ChessType.TYP_PAWN, ChessColor.CLR_BLACK);
-        grid [i][6] = new Piece(ChessType.TYP_PAWN, ChessColor.CLR_WHITE);
+        grid [i][1] = new Piece(ChessType.TYP_PAWN, ChessColor.CLR_BLACK, new PawnMoves() );
+        grid [i][6] = new Piece(ChessType.TYP_PAWN, ChessColor.CLR_WHITE, new PawnMoves() );
     }
 
 
@@ -71,5 +71,15 @@ public class Board {
             }
         }
         return nbPieces;
+    }
+
+    public void move(ChessPosition p0, ChessPosition p1) {
+        grid [p1.x][p1.y] = grid [p0.x][p0.y];
+        grid [p0.x][p0.y] = null;
+
+
+
+
+
     }
 }

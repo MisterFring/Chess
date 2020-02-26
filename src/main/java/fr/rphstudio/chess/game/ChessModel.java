@@ -17,9 +17,7 @@ public class ChessModel implements IChess {
 
     private ChessModel(){
 
-        Piece p = new Piece (ChessType.TYP_PAWN, ChessColor.CLR_WHITE);
-        //System.out.println( p.getType() );
-        //System.out.println( p.getColor() );
+
     }
 
     public static ChessModel getInstance(){
@@ -69,13 +67,20 @@ public class ChessModel implements IChess {
 
     @Override
     public List<ChessPosition> getPieceMoves(ChessPosition p) {
-        return new ArrayList<ChessPosition>();
+        Piece piece1 = myBoard.getPiece(p);
+        if (piece1 != null) {
+            return piece1.getPieceMoves(p, myBoard);
+        }
+        else {
+            return new ArrayList<>();
+        }
+
 
     }
 
     @Override
     public void movePiece(ChessPosition p0, ChessPosition p1) {
-
+        this.myBoard.move(p0, p1);
     }
 
     @Override
