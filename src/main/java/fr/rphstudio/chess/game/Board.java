@@ -2,8 +2,6 @@ package fr.rphstudio.chess.game;
 
 import fr.rphstudio.chess.interf.IChess.*;
 
-import java.util.List;
-
 public class Board {
     private Piece[][] grid;
 
@@ -56,10 +54,22 @@ public class Board {
 
     public Piece getPiece (ChessPosition position){
        return grid [position.x][position.y];
-
     }
 
-
-
-
+    public int nbPieces(ChessColor color) {
+        int nbPieces = 0;
+        Piece p1;
+        for (int x = 0; x < 8; x++) {
+            for (int y = 0; y < 8; y++) {
+                ChessPosition posTmp = new ChessPosition(x,y);
+                p1 = getPiece(posTmp);
+                if (p1 != null) {
+                    if (p1.getColor() == color) {
+                        nbPieces++;
+                    }
+                }
+            }
+        }
+        return nbPieces;
+    }
 }

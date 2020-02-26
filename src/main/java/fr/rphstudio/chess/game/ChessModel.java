@@ -35,13 +35,13 @@ public class ChessModel implements IChess {
 
     @Override
     public ChessType getPieceType(ChessPosition p) throws EmptyCellException, OutOfBoardException {
-    Piece piece1 = myBoard.getPiece(p);
+        Piece piece1 = myBoard.getPiece(p);
 
-    if (piece1 != null ){
-        return piece1.getType();
-    }else{
-       throw new EmptyCellException();
-    }
+        if (piece1 != null ){
+            return piece1.getType();
+        }else{
+           throw new EmptyCellException();
+        }
     }
 
     @Override
@@ -57,11 +57,14 @@ public class ChessModel implements IChess {
 
     @Override
     public int getNbRemainingPieces(ChessColor color) {
+        int nbPiece = myBoard.nbPieces(color);
+        return nbPiece;
+
+
         //ajout des couleurs disponibles pedant les frames.
 
-        System.out.println(ChessColor.CLR_WHITE);
-        System.out.println(ChessColor.CLR_BLACK);
-        return 0;
+        //System.out.println(ChessColor.CLR_WHITE);
+        //System.out.println(ChessColor.CLR_BLACK);
     }
 
     @Override
