@@ -11,5 +11,14 @@ public class Useful {
         return true;
     }
 
-    public static boolean isEmpty(ChessPosition p, )
+    public static boolean isEmpty(ChessPosition p, Board b){
+        Piece p1;
+        ChessPosition pos = new ChessPosition(p.x,p.y);
+        p1 = Board.getPiece(pos);
+        if (p1  == null){
+            return true;
+        }
+        return false;
+    }
+
 }

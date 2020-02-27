@@ -16,16 +16,16 @@ public class PawnMoves implements Movement {
         ChessPosition pos3 = new ChessPosition(p.x + 0,p.y - 1);
         ChessPosition pos4 = new ChessPosition(p.x + 0,p.y - 2);
 
-        if (Useful.isValidPosition(pos)){
+        if (Useful.isValidPosition(pos)&&Useful.isEmpty(pos, b)){
             pawnList.add(pos);
         }
-        if (Useful.isValidPosition(pos2)){
+        if (Useful.isValidPosition(pos2)&&Useful.isEmpty(pos2, b)){
             pawnList.add(pos2);
         }
-        if (Useful.isValidPosition(pos3)){
+        if (Useful.isValidPosition(pos3)&&Useful.isEmpty(pos3, b)){
             pawnList.add(pos3);
         }
-        if (Useful.isValidPosition(pos4)){
+        if (Useful.isValidPosition(pos4)&&Useful.isEmpty(pos4, b)){
             pawnList.add(pos4);
         }
         return pawnList;

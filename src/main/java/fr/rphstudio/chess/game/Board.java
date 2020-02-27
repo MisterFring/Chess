@@ -3,7 +3,7 @@ package fr.rphstudio.chess.game;
 import fr.rphstudio.chess.interf.IChess.*;
 
 public class Board {
-    private Piece[][] grid;
+    private static Piece[][] grid;
 
     public Board (){
     grid =  new Piece[8][8];
@@ -52,7 +52,7 @@ public class Board {
     // 3 chestmodel créer un attribue de type board (new)
     // 4 interoger couleur et type
 
-    public Piece getPiece (ChessPosition position){
+    public static Piece getPiece(ChessPosition position){
        return grid [position.x][position.y];
     }
 
