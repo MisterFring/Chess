@@ -53,7 +53,11 @@ public class Board {
     // 4 interoger couleur et type
 
     public static Piece getPiece(ChessPosition position){
-       return grid [position.x][position.y];
+        if (position.x <= 7 && position.y <= 7 && position.x >= 0 && position.y >= 0){
+            return grid [position.x][position.y];
+        }else{
+            return null;
+        }
     }
 
     public int nbPieces(ChessColor color) {
