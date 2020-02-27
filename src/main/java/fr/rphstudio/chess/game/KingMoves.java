@@ -20,15 +20,30 @@ public class KingMoves implements Movement {
         IChess.ChessPosition pos7 = new IChess.ChessPosition(p.x + 0,p.y - 1);
         IChess.ChessPosition pos8 = new IChess.ChessPosition(p.x - 1,p.y + 0);
 
-        kingList.add(pos);
-        kingList.add(pos2);
-        kingList.add(pos3);
-        kingList.add(pos4);
-        kingList.add(pos5);
-        kingList.add(pos6);
-        kingList.add(pos7);
-        kingList.add(pos8);
-
+        if (Useful.isValidPosition(pos)){
+            kingList.add(pos);
+        }
+        if (Useful.isValidPosition(pos2)){
+            kingList.add(pos2);
+        }
+        if (Useful.isValidPosition(pos3)){
+            kingList.add(pos3);
+        }
+        if (Useful.isValidPosition(pos4)){
+            kingList.add(pos4);
+        }
+        if (Useful.isValidPosition(pos5)){
+            kingList.add(pos5);
+        }
+        if (Useful.isValidPosition(pos6)){
+            kingList.add(pos6);
+        }
+        if (Useful.isValidPosition(pos7)){
+            kingList.add(pos7);
+        }
+        if (Useful.isValidPosition(pos8)){
+            kingList.add(pos8);
+        }
         return kingList;
     }
 }

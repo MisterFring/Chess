@@ -15,11 +15,18 @@ public class BishopMoves implements Movement {
             IChess.ChessPosition pos2 = new IChess.ChessPosition(p.x - i, p.y - i);
             IChess.ChessPosition pos3 = new IChess.ChessPosition(p.x + i, p.y - i);
             IChess.ChessPosition pos4 = new IChess.ChessPosition(p.x - i, p.y + i);
-            bishopList.add(pos);
-            bishopList.add(pos2);
-            bishopList.add(pos3);
-            bishopList.add(pos4);
-
+            if (Useful.isValidPosition(pos)){
+                bishopList.add(pos);
+            }
+            if (Useful.isValidPosition(pos2)){
+                bishopList.add(pos2);
+            }
+            if (Useful.isValidPosition(pos3)){
+                bishopList.add(pos3);
+            }
+            if (Useful.isValidPosition(pos4)){
+                bishopList.add(pos4);
+            }
         }
         return bishopList;
     }

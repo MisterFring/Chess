@@ -9,18 +9,25 @@ public class PawnMoves implements Movement {
 
     @Override
     public List<ChessPosition> getPieceMoves(ChessPosition p, Board b) {
-        List<ChessPosition> testlist = new ArrayList<>();
+        List<ChessPosition> pawnList = new ArrayList<>();
 
         ChessPosition pos = new ChessPosition(p.x + 0,p.y + 1);
         ChessPosition pos2 = new ChessPosition(p.x + 0,p.y + 2);
         ChessPosition pos3 = new ChessPosition(p.x + 0,p.y - 1);
         ChessPosition pos4 = new ChessPosition(p.x + 0,p.y - 2);
 
-        testlist.add(pos);
-        testlist.add(pos2);
-        testlist.add(pos3);
-        testlist.add(pos4);
-
-        return testlist;
+        if (Useful.isValidPosition(pos)){
+            pawnList.add(pos);
+        }
+        if (Useful.isValidPosition(pos2)){
+            pawnList.add(pos2);
+        }
+        if (Useful.isValidPosition(pos3)){
+            pawnList.add(pos3);
+        }
+        if (Useful.isValidPosition(pos4)){
+            pawnList.add(pos4);
+        }
+        return pawnList;
     }
 }

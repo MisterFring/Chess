@@ -15,11 +15,18 @@ public class RookMoves implements Movement {
             IChess.ChessPosition pos2 = new IChess.ChessPosition(p.x - i, p.y - 0);
             IChess.ChessPosition pos3 = new IChess.ChessPosition(p.x + 0, p.y - i);
             IChess.ChessPosition pos4 = new IChess.ChessPosition(p.x - 0, p.y + i);
-            rookList.add(pos);
-            rookList.add(pos2);
-            rookList.add(pos3);
-            rookList.add(pos4);
-
+            if (Useful.isValidPosition(pos)){
+                rookList.add(pos);
+            }
+            if (Useful.isValidPosition(pos2)){
+                rookList.add(pos2);
+            }
+            if (Useful.isValidPosition(pos3)){
+                rookList.add(pos3);
+            }
+            if (Useful.isValidPosition(pos4)){
+                rookList.add(pos4);
+            }
         }
 
 
