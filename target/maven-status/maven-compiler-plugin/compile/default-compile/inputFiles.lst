@@ -9,6 +9,7 @@
 /Users/Pierredck/Documents/Coding Factory/Java POO/Repo/Chess/src/main/java/fr/rphstudio/chess/game/PawnMoves.java
 /Users/Pierredck/Documents/Coding Factory/Java POO/Repo/Chess/src/main/java/fr/rphstudio/chess/launcher/MainLauncher.java
 /Users/Pierredck/Documents/Coding Factory/Java POO/Repo/Chess/src/main/java/fr/rphstudio/chess/interf/EmptyCellException.java
+/Users/Pierredck/Documents/Coding Factory/Java POO/Repo/Chess/src/main/java/fr/rphstudio/chess/game/Useful.java
 /Users/Pierredck/Documents/Coding Factory/Java POO/Repo/Chess/src/main/java/fr/rphstudio/chess/interf/ChessException.java
 /Users/Pierredck/Documents/Coding Factory/Java POO/Repo/Chess/src/main/java/fr/rphstudio/chess/game/ChessModel.java
 /Users/Pierredck/Documents/Coding Factory/Java POO/Repo/Chess/src/main/java/fr/rphstudio/chess/interf/OutOfBoardException.java

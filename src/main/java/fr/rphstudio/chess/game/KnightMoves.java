@@ -18,28 +18,28 @@ public class KnightMoves implements Movement {
         IChess.ChessPosition pos5 = new IChess.ChessPosition(p.x + 1,p.y - 2);
         IChess.ChessPosition pos6 = new IChess.ChessPosition(p.x - 1,p.y + 2);
         IChess.ChessPosition pos7 = new IChess.ChessPosition(p.x - 1,p.y - 2);
-        if (Useful.isValidPosition(pos)){
+        if (Useful.isValidPosition(pos)&&Useful.isEmpty(pos, b)){
             knightList.add(pos);
         }
-        if (Useful.isValidPosition(pos8)){
+        if (Useful.isValidPosition(pos8)&&Useful.isEmpty(pos8, b)){
             knightList.add(pos8);
         }
-        if (Useful.isValidPosition(pos2)){
+        if (Useful.isValidPosition(pos2)&&Useful.isEmpty(pos2, b)){
             knightList.add(pos2);
         }
-        if (Useful.isValidPosition(pos3)){
+        if (Useful.isValidPosition(pos3)&&Useful.isEmpty(pos3, b)){
             knightList.add(pos3);
         }
-        if (Useful.isValidPosition(pos4)){
+        if (Useful.isValidPosition(pos4)&&Useful.isEmpty(pos4, b)){
             knightList.add(pos4);
         }
-        if (Useful.isValidPosition(pos5)){
+        if (Useful.isValidPosition(pos5)&&Useful.isEmpty(pos5, b)){
             knightList.add(pos5);
         }
-        if (Useful.isValidPosition(pos6)){
+        if (Useful.isValidPosition(pos6)&&Useful.isEmpty(pos6, b)){
             knightList.add(pos6);
         }
-        if (Useful.isValidPosition(pos7)){
+        if (Useful.isValidPosition(pos7)&&Useful.isEmpty(pos7, b)){
             knightList.add(pos7);
         }
         return knightList;
