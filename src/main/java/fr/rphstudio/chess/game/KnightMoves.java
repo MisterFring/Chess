@@ -5,6 +5,11 @@ import fr.rphstudio.chess.interf.IChess;
 import java.util.ArrayList;
 import java.util.List;
 
+
+/**
+ * // the KnightMoves class is used for all Knight movements
+ */
+
 public class KnightMoves implements Movement {
     @Override
     public List<IChess.ChessPosition> getPieceMoves(IChess.ChessPosition p, Board b) {

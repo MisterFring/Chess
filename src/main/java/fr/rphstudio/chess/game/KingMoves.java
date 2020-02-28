@@ -4,6 +4,10 @@ import fr.rphstudio.chess.interf.IChess;
 
 import java.util.ArrayList;
 import java.util.List;
+/**
+ * // the KingMoves class is used for all King movements
+ * and the checkmate
+ */
 
 public class KingMoves implements Movement {
     @Override

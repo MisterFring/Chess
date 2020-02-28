@@ -4,7 +4,9 @@ import fr.rphstudio.chess.interf.IChess;
 
 import java.util.ArrayList;
 import java.util.List;
-
+/**
+ * // the RookMoves class is used for all Rook movements
+ */
 public class RookMoves implements Movement {
     @Override
     public List<IChess.ChessPosition> getPieceMoves(IChess.ChessPosition p, Board b) {

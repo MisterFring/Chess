@@ -5,6 +5,10 @@ import fr.rphstudio.chess.interf.IChess.*;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * // the PawnMoves class is used for all Pawn and his move
+ */
+
 public class PawnMoves implements Movement {
 
     @Override

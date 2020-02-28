@@ -4,6 +4,10 @@ import fr.rphstudio.chess.interf.IChess;
 import fr.rphstudio.chess.interf.IChess.*;
 
 import java.util.List;
+/**
+ * //
+ * the Piece class is used to create the methods to retrieve the info on the pieces of the game
+ */
 
 public class Piece {
     // ---------------------------

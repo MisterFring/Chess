@@ -4,6 +4,9 @@ import fr.rphstudio.chess.interf.IChess;
 
 import java.util.ArrayList;
 import java.util.List;
+/**
+ * // the Queen class is used for all Queen movements
+ */
 
 public class QueenMoves implements Movement {
     @Override

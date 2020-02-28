@@ -2,6 +2,11 @@ package fr.rphstudio.chess.game;
 
 import fr.rphstudio.chess.interf.IChess.*;
 
+/**
+ * the useful class is used to contain methods used throughout the game
+ *
+ */
+
 public class Useful {
     public static boolean isValidPosition(ChessPosition p) {
         if (p.x < 0 || p.x > 7 || p.y < 0 || p.y > 7){

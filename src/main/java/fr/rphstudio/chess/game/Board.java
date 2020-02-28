@@ -2,6 +2,11 @@ package fr.rphstudio.chess.game;
 
 import fr.rphstudio.chess.interf.IChess.*;
 
+/**
+ * // the board class is used to implement a grid to be able to place the pieces
+ * on it as well as to be able to assign the actions of the different pieces
+ */
+
 public class Board {
     private static Piece[][] grid;
 

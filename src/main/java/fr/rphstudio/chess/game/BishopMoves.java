@@ -4,6 +4,9 @@ import fr.rphstudio.chess.interf.IChess;
 
 import java.util.ArrayList;
 import java.util.List;
+/**
+ * // the bishop class is used for all Bishop movements
+ */
 
 public class BishopMoves implements Movement {
     @Override
